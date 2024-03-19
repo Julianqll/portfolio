@@ -1,10 +1,9 @@
-import { HeroImageBackground } from "../components/HeroImageBackground/HeroImageBackground";
+import { HeroImageRight } from "../components/HeroImageBackground/HeroImageRight";
 import { SimpleHeader } from "../components/SimpleHeader/SimpleHeader";
 
 export function HomePage() {
     return <div>
         <SimpleHeader></SimpleHeader>
-        <HeroImageBackground></HeroImageBackground>
-        <HeroImageBackground></HeroImageBackground>
+        <HeroImageRight></HeroImageRight>
     </div>;
 }

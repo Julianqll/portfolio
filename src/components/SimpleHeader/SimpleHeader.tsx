@@ -4,11 +4,10 @@ import { useDisclosure } from '@mantine/hooks';
 import classes from './SimpleHeader.module.css';
 
 const mainLinks = [
-  { link: '#', label: 'Book a demo' },
-  { link: '#', label: 'Documentation' },
-  { link: '#', label: 'Community' },
-  { link: '#', label: 'Academy' },
-  { link: '#', label: 'Forums' },
+  { link: '#', label: 'About' },
+  { link: '#', label: 'Skills' },
+  { link: '#', label: 'Experience' },
+  { link: '#', label: 'Projects' },
 ];
 
 export function SimpleHeader() {
@@ -34,7 +33,7 @@ export function SimpleHeader() {
   return (
     <header className={classes.header}>
       <Container className={classes.inner}>
-        Mantine
+        julianqll
         <Box className={classes.links} visibleFrom="sm">
           <Group gap={0} justify="flex-end" className={classes.mainLinks}>
             {mainItems}
