@@ -3,12 +3,6 @@ import { Container, Anchor, Group, Burger, Box } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import classes from './SimpleHeader.module.css';
 
-const userLinks = [
-  { link: '#', label: 'Privacy & Security' },
-  { link: '#', label: 'Account settings' },
-  { link: '#', label: 'Support options' },
-];
-
 const mainLinks = [
   { link: '#', label: 'Book a demo' },
   { link: '#', label: 'Documentation' },
@@ -36,16 +30,6 @@ export function SimpleHeader() {
     </Anchor>
   ));
 
-  const secondaryItems = userLinks.map((item) => (
-    <Anchor
-      href={item.link}
-      key={item.label}
-      onClick={(event) => event.preventDefault()}
-      className={classes.secondaryLink}
-    >
-      {item.label}
-    </Anchor>
-  ));
 
   return (
     <header className={classes.header}>
