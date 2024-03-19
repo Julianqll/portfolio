@@ -19,7 +19,7 @@ export function HeroImageRight() {
                 component="span"
                 inherit
                 variant="gradient"
-                gradient={{ from: 'pink', to: 'yellow' }}
+                gradient={{ from: 'julian-third-blue.4', to: '#D0E6FF' }}
               >
                 Julian Marcelo Quispe Lau Len
               </Text>

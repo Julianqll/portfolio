@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container, Anchor, Group, Burger, Box } from '@mantine/core';
+import { Container, Anchor, Group, Burger, Box, Image } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import classes from './SimpleHeader.module.css';
 
@@ -33,7 +33,10 @@ export function SimpleHeader() {
   return (
     <header className={classes.header}>
       <Container className={classes.inner}>
-        julianqll
+        <Image
+          w={100}
+          src='./src/assets/isologo.svg'
+        />
         <Box className={classes.links} visibleFrom="sm">
           <Group gap={0} justify="flex-end" className={classes.mainLinks}>
             {mainItems}

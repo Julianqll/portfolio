@@ -39,13 +39,13 @@
       color 100ms ease;
   
     @mixin hover {
-      color: light-dark(var(--mantine-color-julian-third-blue-4), var(--mantine-color-white));
+      color: light-dark(var(--mantine-color-julian-third-blue-3), var(--mantine-color-white));
       text-decoration: none;
     }
   
     &[data-active] {
-      color: light-dark(var(--mantine-color-julian-third-blue-4), var(--mantine-color-white));
-      border-bottom-color: var(--mantine-color-blue-6);
+      color: light-dark(var(--mantine-color-julian-third-blue-3), var(--mantine-color-white));
+      border-bottom-color: var(--mantine-color-julian-third-blue-3);
     }
   }
   
