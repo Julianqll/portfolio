@@ -38,6 +38,7 @@
 
   @media (max-width: $mantine-breakpoint-md) {
     margin-right: 0;
+    text-align: center;
   }
 }
 
